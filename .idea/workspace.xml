@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1d17993c-88f4-489e-b783-ba5320907061" name="Changes" comment="fix(pyproject): Update config">
+    <list default="true" id="1d17993c-88f4-489e-b783-ba5320907061" name="Changes" comment="fix(ci): Update ci.yaml">
       <change beforePath="$PROJECT_DIR$/.github/workflows/ci.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/ci.yaml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -327,7 +327,15 @@
       <option name="project" value="LOCAL" />
       <updated>1748538131207</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="fix(ci): Update ci.yaml">
+      <option name="closed" value="true" />
+      <created>1748538388966</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1748538388966</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -335,14 +343,14 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="feat(init): Init new lib" />
-    <MESSAGE value="fix(ci): Update ci.yaml" />
     <MESSAGE value="fix(pyproject.toml): Update dependencies" />
     <MESSAGE value="fix(ci): Update codecov token" />
     <MESSAGE value="fix(ci): Add relese pypline" />
     <MESSAGE value="fix(ci): fix release.yml" />
     <MESSAGE value="fix(ci): move artifact uploader to v4" />
     <MESSAGE value="fix(pyproject): Update config" />
-    <option name="LAST_COMMIT_MESSAGE" value="fix(pyproject): Update config" />
+    <MESSAGE value="fix(ci): Update ci.yaml" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix(ci): Update ci.yaml" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
