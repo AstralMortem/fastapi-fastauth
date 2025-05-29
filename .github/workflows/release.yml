@@ -68,6 +68,7 @@ jobs:
         version: latest
         virtualenvs-create: true
         virtualenvs-in-project: true
+        installer-parallel: true
 
     - name: Build package
       run: poetry build
