@@ -318,7 +318,15 @@
       <option name="project" value="LOCAL" />
       <updated>1748536736799</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="fix(ci): move artifact uploader to v4">
+      <option name="closed" value="true" />
+      <created>1748537376349</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1748537376350</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
