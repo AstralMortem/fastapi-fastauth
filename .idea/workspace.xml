@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1d17993c-88f4-489e-b783-ba5320907061" name="Changes" comment="fix(ci): move artifact uploader to v4">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pyproject.toml" beforeDir="false" afterPath="$PROJECT_DIR$/pyproject.toml" afterDir="false" />
+    <list default="true" id="1d17993c-88f4-489e-b783-ba5320907061" name="Changes" comment="fix(pyproject): Update config">
+      <change beforePath="$PROJECT_DIR$/.github/workflows/ci.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/ci.yaml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,12 +20,6 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="PUSH_TAGS">
-      <GitPushTagMode>
-        <option name="argument" value="--tags" />
-        <option name="title" value="All" />
-      </GitPushTagMode>
-    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GitHubPullRequestSearchHistory"><![CDATA[{
@@ -326,7 +319,15 @@
       <option name="project" value="LOCAL" />
       <updated>1748537376350</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="fix(pyproject): Update config">
+      <option name="closed" value="true" />
+      <created>1748538131207</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1748538131207</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -340,7 +341,8 @@
     <MESSAGE value="fix(ci): Add relese pypline" />
     <MESSAGE value="fix(ci): fix release.yml" />
     <MESSAGE value="fix(ci): move artifact uploader to v4" />
-    <option name="LAST_COMMIT_MESSAGE" value="fix(ci): move artifact uploader to v4" />
+    <MESSAGE value="fix(pyproject): Update config" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix(pyproject): Update config" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
