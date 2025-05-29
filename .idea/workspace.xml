@@ -1,0 +1,301 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="1d17993c-88f4-489e-b783-ba5320907061" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.github/workflows/ci.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/fastauth.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/sqlalchemy/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/sqlalchemy/app.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/sqlalchemy/config.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/sqlalchemy/db_session.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/sqlalchemy/models.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/sqlalchemy/repositories.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/sqlalchemy/router.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/sqlalchemy/schema.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/sqlalchemy/security.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/sqlalchemy/services.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mkdocs.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pyproject.toml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fastauth/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fastauth/contrib/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fastauth/contrib/sqlalchemy/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fastauth/contrib/sqlalchemy/_generic.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fastauth/contrib/sqlalchemy/models.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fastauth/contrib/sqlalchemy/repositories.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fastauth/exceptions.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fastauth/fastauth.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fastauth/models/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fastauth/models/oauth.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fastauth/models/rbac.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fastauth/models/users.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fastauth/repositories/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fastauth/repositories/base.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fastauth/repositories/oauths.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fastauth/repositories/roles.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fastauth/repositories/users.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fastauth/routes/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fastauth/routes/auth.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fastauth/routes/oauth.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fastauth/routes/password_reset.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fastauth/routes/signup.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fastauth/routes/users.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fastauth/routes/verification.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fastauth/schemas/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fastauth/schemas/auth.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fastauth/schemas/base.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fastauth/schemas/oauth.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fastauth/schemas/users.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fastauth/services/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fastauth/services/auth.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fastauth/settings.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fastauth/storage/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fastauth/storage/base.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fastauth/storage/jwt.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fastauth/transport/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fastauth/transport/base.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fastauth/transport/bearer.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fastauth/transport/cookie.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fastauth/types.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fastauth/utils/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fastauth/utils/jwt_helper.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fastauth/utils/password.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fastauth/utils/router.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fastauth/utils/time.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/conftest.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/storage/test_jwt_storage.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/transport/conftest.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/transport/test_bearer_transport.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/transport/test_cookie_transport.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/utils/test_jwt_helper.py" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 5
+}</component>
+  <component name="ProjectId" id="2xiip5surJs0b68gwcBzScDR0tC" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;Python tests.Python tests for test_cookie_transport.test_cookie_security_schema.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_cookie_transport.test_cookie_transport_login_response.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_cookie_transport.test_cookie_transport_logout_response.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_jwt_helper.test_jwt_payload_with_exp.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_jwt_helper.test_jwt_payload_without_exp.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_jwt_helper.test_shortcuts.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_jwt_helper.test_token_creation.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_jwt_helper.test_token_exception.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_jwt_storage.test_decode_token.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_jwt_storage.test_encode_token.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests in test_jwt_helper.py.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests in tests.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.pytest for tests.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.pytest for tests.storage.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.pytest for tests.storage.test_jwt_storage.test_decode_token.executor&quot;: &quot;Run&quot;,
+    &quot;Python.app.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/senpai/Projects/fastauth&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/fastauth" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python tests.Python tests in tests">
+    <configuration name="app" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="fastauth" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/examples/sqlalchemy" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/examples/sqlalchemy/app.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Python tests for test_jwt_helper.test_jwt_payload_with_exp" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="fastauth" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests/utils" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_jwt_helper.test_jwt_payload_with_exp&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Python tests for test_jwt_storage.test_decode_token" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="fastauth" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests/storage" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_jwt_storage.test_decode_token&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Python tests in tests" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="fastauth" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/tests&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="pytest for tests.storage" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+      <module name="fastauth" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="$USER_HOME$/.cache/pypoetry/virtualenvs/fastauth-sUXMbUbu-py3.13/bin/python" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests/storage" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_parameters" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;tests.storage&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python tests.Python tests in tests" />
+        <item itemvalue="Python.app" />
+        <item itemvalue="Python tests.pytest for tests.storage" />
+        <item itemvalue="Python tests.Python tests for test_jwt_storage.test_decode_token" />
+        <item itemvalue="Python tests.Python tests for test_jwt_helper.test_jwt_payload_with_exp" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-js-predefined-d6986cc7102b-6a121458b545-JavaScript-PY-251.25410.159" />
+        <option value="bundled-python-sdk-e0ed3721d81e-36ea0e71a18c-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-251.25410.159" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="1d17993c-88f4-489e-b783-ba5320907061" name="Changes" comment="" />
+      <created>1748427475560</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1748427475560</updated>
+      <workItem from="1748427476586" duration="142000" />
+      <workItem from="1748427637680" duration="111000" />
+      <workItem from="1748428095966" duration="1256000" />
+      <workItem from="1748429382744" duration="7097000" />
+      <workItem from="1748436525768" duration="3027000" />
+      <workItem from="1748446295510" duration="4437000" />
+      <workItem from="1748450904944" duration="7722000" />
+      <workItem from="1748506722187" duration="17580000" />
+      <workItem from="1748532781131" duration="91000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/tests/transport/conftest.py</url>
+          <line>5</line>
+          <option name="timeStamp" value="14" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="com.github.lppedd.cc.CommitBuilderDialog">
+    <type>feat</type>
+    <scope>docs</scope>
+    <subject>Update docs</subject>
+    <footers>
+      <entry type="" value="" />
+    </footers>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/fastauth$pytest_for_tests_storage_test_jwt_storage_test_decode_token.coverage" NAME="pytest for tests.storage.test_jwt_storage.test_decode_token Coverage Results" MODIFIED="1748515441870" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests/storage" />
+    <SUITE FILE_PATH="coverage/fastauth$pytest_for_tests_storage.coverage" NAME="pytest for tests.storage Coverage Results" MODIFIED="1748516538141" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests/storage" />
+    <SUITE FILE_PATH="coverage/fastauth$.coverage" NAME=" Coverage Results" MODIFIED="1748522407264" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests" />
+    <SUITE FILE_PATH="coverage/fastauth$pytest_for_tests.coverage" NAME="pytest for tests Coverage Results" MODIFIED="1748516331894" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests/storage" />
+    <SUITE FILE_PATH="coverage/fastauth$app.coverage" NAME="app Coverage Results" MODIFIED="1748521270380" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/examples/sqlalchemy" />
+  </component>
+</project>
