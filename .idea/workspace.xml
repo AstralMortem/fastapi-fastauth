@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1d17993c-88f4-489e-b783-ba5320907061" name="Changes" comment="fix(ci): Update ci.yaml">
-      <change beforePath="$PROJECT_DIR$/.github/workflows/ci.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/ci.yaml" afterDir="false" />
+    <list default="true" id="1d17993c-88f4-489e-b783-ba5320907061" name="Changes" comment="fix(ci): return cacehe to ci.yaml, remove cache from release.yml">
+      <change beforePath="$PROJECT_DIR$/.github/workflows/release.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/release.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -335,7 +335,23 @@
       <option name="project" value="LOCAL" />
       <updated>1748538388966</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="fix(ci): remove cache">
+      <option name="closed" value="true" />
+      <created>1748538616167</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1748538616167</updated>
+    </task>
+    <task id="LOCAL-00018" summary="fix(ci): return cacehe to ci.yaml, remove cache from release.yml">
+      <option name="closed" value="true" />
+      <created>1748538735009</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1748538735009</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -350,7 +366,9 @@
     <MESSAGE value="fix(ci): move artifact uploader to v4" />
     <MESSAGE value="fix(pyproject): Update config" />
     <MESSAGE value="fix(ci): Update ci.yaml" />
-    <option name="LAST_COMMIT_MESSAGE" value="fix(ci): Update ci.yaml" />
+    <MESSAGE value="fix(ci): remove cache" />
+    <MESSAGE value="fix(ci): return cacehe to ci.yaml, remove cache from release.yml" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix(ci): return cacehe to ci.yaml, remove cache from release.yml" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
