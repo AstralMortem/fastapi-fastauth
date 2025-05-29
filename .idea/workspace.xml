@@ -4,80 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1d17993c-88f4-489e-b783-ba5320907061" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.github/workflows/ci.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/fastauth.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LICENSE" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/examples/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/examples/sqlalchemy/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/examples/sqlalchemy/app.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/examples/sqlalchemy/config.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/examples/sqlalchemy/db_session.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/examples/sqlalchemy/models.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/examples/sqlalchemy/repositories.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/examples/sqlalchemy/router.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/examples/sqlalchemy/schema.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/examples/sqlalchemy/security.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/examples/sqlalchemy/services.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mkdocs.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pyproject.toml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/fastauth/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/fastauth/contrib/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/fastauth/contrib/sqlalchemy/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/fastauth/contrib/sqlalchemy/_generic.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/fastauth/contrib/sqlalchemy/models.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/fastauth/contrib/sqlalchemy/repositories.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/fastauth/exceptions.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/fastauth/fastauth.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/fastauth/models/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/fastauth/models/oauth.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/fastauth/models/rbac.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/fastauth/models/users.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/fastauth/repositories/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/fastauth/repositories/base.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/fastauth/repositories/oauths.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/fastauth/repositories/roles.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/fastauth/repositories/users.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/fastauth/routes/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/fastauth/routes/auth.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/fastauth/routes/oauth.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/fastauth/routes/password_reset.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/fastauth/routes/signup.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/fastauth/routes/users.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/fastauth/routes/verification.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/fastauth/schemas/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/fastauth/schemas/auth.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/fastauth/schemas/base.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/fastauth/schemas/oauth.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/fastauth/schemas/users.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/fastauth/services/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/fastauth/services/auth.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/fastauth/settings.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/fastauth/storage/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/fastauth/storage/base.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/fastauth/storage/jwt.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/fastauth/transport/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/fastauth/transport/base.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/fastauth/transport/bearer.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/fastauth/transport/cookie.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/fastauth/types.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/fastauth/utils/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/fastauth/utils/jwt_helper.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/fastauth/utils/password.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/fastauth/utils/router.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/fastauth/utils/time.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/conftest.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/storage/test_jwt_storage.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/transport/conftest.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/transport/test_bearer_transport.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/transport/test_cookie_transport.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/utils/test_jwt_helper.py" afterDir="false" />
+    <list default="true" id="1d17993c-88f4-489e-b783-ba5320907061" name="Changes" comment="feat(init): Init new lib">
+      <change beforePath="$PROJECT_DIR$/.github/workflows/ci.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/ci.yaml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -94,6 +22,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "AstralMortem"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/AstralMortem/fastauth.git",
+    "accountId": "bf4e9dab-6a24-43aa-993e-e188205fd30c"
+  }
+}]]></component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 5
 }</component>
@@ -267,10 +207,31 @@
       <workItem from="1748506722187" duration="17580000" />
       <workItem from="1748532781131" duration="91000" />
     </task>
+    <task id="LOCAL-00001" summary="feat(init): Init new lib">
+      <option name="closed" value="true" />
+      <created>1748533261908</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1748533261908</updated>
+    </task>
+    <task id="LOCAL-00002" summary="feat(init): Init new lib">
+      <option name="closed" value="true" />
+      <created>1748533294877</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1748533294877</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="feat(init): Init new lib" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat(init): Init new lib" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -282,14 +243,6 @@
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
-  </component>
-  <component name="com.github.lppedd.cc.CommitBuilderDialog">
-    <type>feat</type>
-    <scope>docs</scope>
-    <subject>Update docs</subject>
-    <footers>
-      <entry type="" value="" />
-    </footers>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/fastauth$pytest_for_tests_storage_test_jwt_storage_test_decode_token.coverage" NAME="pytest for tests.storage.test_jwt_storage.test_decode_token Coverage Results" MODIFIED="1748515441870" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests/storage" />
