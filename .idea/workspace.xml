@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1d17993c-88f4-489e-b783-ba5320907061" name="Changes" comment="feat(init): Init new lib">
-      <change beforePath="$PROJECT_DIR$/.github/workflows/ci.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/ci.yaml" afterDir="false" />
+    <list default="true" id="1d17993c-88f4-489e-b783-ba5320907061" name="Changes" comment="fix(ci): Update ci.yaml">
+      <change afterPath="$PROJECT_DIR$/src/__init__.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -223,7 +223,15 @@
       <option name="project" value="LOCAL" />
       <updated>1748533294877</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="fix(ci): Update ci.yaml">
+      <option name="closed" value="true" />
+      <created>1748533570310</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1748533570310</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -231,7 +239,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="feat(init): Init new lib" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat(init): Init new lib" />
+    <MESSAGE value="fix(ci): Update ci.yaml" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix(ci): Update ci.yaml" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
