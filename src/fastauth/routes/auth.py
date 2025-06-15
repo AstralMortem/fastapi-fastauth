@@ -9,7 +9,7 @@ from fastauth.transport.bearer import BearerTransport
 from fastapi.security import OAuth2PasswordRequestForm
 
 
-def create_auth_router(security: FastAuth, **kwargs):
+def get_auth_router(security: FastAuth, **kwargs):
     router = default_router(
         security.settings.ROUTER_AUTH_PREFIX, tags=["Auth"], **kwargs
     )

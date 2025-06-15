@@ -23,6 +23,8 @@ from .repositories import (
     SQLAlchemyBaseRepository,
     SQLAlchemyUserRepository,
     SQLAlchemyOAuthRepository,
+    SQLAlchemyPermissionRepository,
+    SQLAlchemyRoleRepository,
 )
 
 __all__ = [
@@ -41,4 +43,6 @@ __all__ = [
     "SQLAlchemyBaseRepository",
     "SQLAlchemyUserRepository",
     "SQLAlchemyOAuthRepository",
+    "SQLAlchemyPermissionRepository",
+    "SQLAlchemyRoleRepository",
 ]

@@ -1,7 +1,8 @@
 from fastauth.repositories.base import IBaseRepository
 from fastauth.repositories.oauths import IOAuthRepository
 from fastauth.repositories.users import IUserRepository
-from fastauth.models import M, UM, UOAM, OAM
+from fastauth.repositories.roles import IRoleRepository, IPermissionRepository
+from fastauth.models import M, UM, UOAM, OAM, RM, PM
 from fastauth.types import ID
 from typing import Generic, Any
 from sqlalchemy.ext.asyncio import AsyncSession
@@ -92,3 +93,17 @@ class SQLAlchemyOAuthRepository(
         )
         res = await self.session.execute(qs)
         return res.unique().scalar_one_or_none()
+
+
+class SQLAlchemyRoleRepository(
+    Generic[RM, ID], IRoleRepository[RM, ID], SQLAlchemyBaseRepository[RM, ID]
+):
+    async def get_roles_by_list(self, roles: list[str]) -> list[RM]:
+        qs = select(self.model).where(self.model.name.in_(roles))
+        return self.session.scalars(qs)
+
+
+class SQLAlchemyPermissionRepository(
+    Generic[PM, ID], IPermissionRepository[PM, ID], SQLAlchemyBaseRepository[PM, ID]
+):
+    pass
