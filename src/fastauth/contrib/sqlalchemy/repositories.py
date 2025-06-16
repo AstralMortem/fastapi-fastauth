@@ -100,8 +100,8 @@ class SQLAlchemyRoleRepository(
 ):
     async def get_roles_by_list(self, roles: list[str]) -> list[RM]:
         qs = select(self.model).where(self.model.name.in_(roles))
-        return self.session.scalars(qs)
-
+        result = await self.session.scalars(qs)
+        return result.all()
 
 class SQLAlchemyPermissionRepository(
     Generic[PM, ID], IPermissionRepository[PM, ID], SQLAlchemyBaseRepository[PM, ID]

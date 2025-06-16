@@ -3,7 +3,7 @@ from typing import Annotated
 from fastapi import Depends
 from sqlalchemy.ext.asyncio import create_async_engine, async_sessionmaker, AsyncSession
 
-engine = create_async_engine("sqlite+aiosqlite:///:memory", echo=True)
+engine = create_async_engine("sqlite+aiosqlite:///:memory:", echo=True)
 session_factory = async_sessionmaker(engine, expire_on_commit=False)
 
 

@@ -5,7 +5,7 @@ from fastapi import Depends
 from fastauth.services import BaseAuthService, UUIDMixin
 from fastauth.storage.jwt import JWTTokenStorage
 from .models import User
-from .repositories import UserRepoDep, OAuthRepoDep
+from .repositories import UserRepoDep, OAuthRepoDep, RoleRepoDep
 from .config import settings
 
 
@@ -20,9 +20,10 @@ async def get_token_storage():
 async def get_auth_service(
     user_repo: UserRepoDep,
     oauth_repo: OAuthRepoDep,
+    role_repo: RoleRepoDep,
     token_storage: JWTTokenStorage = Depends(get_token_storage),
 ):
-    return AuthService(settings, user_repo, token_storage, oauth_repo=oauth_repo)
+    return AuthService(settings, user_repo, token_storage, oauth_repo=oauth_repo, role_repo=role_repo)
 
 
 AuthServiceDep = Annotated[AuthService, Depends(get_auth_service)]

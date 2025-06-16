@@ -9,6 +9,7 @@ def get_signup_router(
     security: FastAuth,
     user_create: type[BaseUserCreate],
     user_read: type[BaseUserRead],
+    safe: bool = True,
     **kwargs,
 ):
     router = default_router(security.settings.ROUTER_AUTH_PREFIX, ["Auth"], **kwargs)
@@ -17,6 +18,6 @@ def get_signup_router(
     async def user_signup(
         payload: user_create, service: BaseAuthService = Depends(security.service_dep)
     ):
-        return await service.signup(payload)
+        return await service.signup(payload, safe=safe)
 
     return router
