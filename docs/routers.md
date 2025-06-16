@@ -23,7 +23,6 @@ app.include_router(
 )
 
 ```
-
 ## Register router
 To add `/auth/register` route, use `get_register_router` method
 
