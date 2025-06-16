@@ -103,6 +103,7 @@ class SQLAlchemyRoleRepository(
         result = await self.session.scalars(qs)
         return result.all()
 
+
 class SQLAlchemyPermissionRepository(
     Generic[PM, ID], IPermissionRepository[PM, ID], SQLAlchemyBaseRepository[PM, ID]
 ):

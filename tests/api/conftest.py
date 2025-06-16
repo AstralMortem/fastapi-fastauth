@@ -8,13 +8,15 @@ from sqlalchemy.ext.asyncio import create_async_engine, async_sessionmaker
 from preconfig.db_session import get_session
 import pytest_asyncio
 
-engine = create_async_engine('sqlite+aiosqlite:///:memory:', echo=True)
+engine = create_async_engine("sqlite+aiosqlite:///:memory:", echo=True)
 session_factory = async_sessionmaker(engine, expire_on_commit=True)
+
 
 @pytest_asyncio.fixture()
 async def get_test_session():
     async with session_factory() as session:
         yield session
+
 
 @pytest_asyncio.fixture(scope="session", autouse=True)
 async def prepare_database():
@@ -41,11 +43,11 @@ def test_app():
 
 @pytest_asyncio.fixture()
 async def client(test_app, get_test_session):
-    
     test_app.dependency_overrides[get_session] = lambda: get_test_session
 
-    async with AsyncClient(transport=ASGITransport(app=test_app), base_url="http://test") as ac:
+    async with AsyncClient(
+        transport=ASGITransport(app=test_app), base_url="http://test"
+    ) as ac:
         yield ac
 
     test_app.dependency_overrides.clear()
-
