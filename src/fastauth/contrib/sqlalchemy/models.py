@@ -133,6 +133,8 @@ class RBACMixin(Generic[RM]):
 
 
 class OAuthMixin(Generic[OAM]):
+    __abstract__ = True
+    
     @declared_attr
     def oauth_accounts(self) -> Mapped[list[OAM]]:
         return relationship(lazy="selectin")

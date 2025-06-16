@@ -105,38 +105,3 @@ app.include_router(
 )
 ```
 
-## In Hurry?
-If you want to fast test all routers(except OAuth), you can use `register_in_fastapi` method, set app instance, and pydantic models
-```python
-from fastapi import FastAPI
-from fastauth.routers import FastAuthRouter
-from .dependencies import security
-from .schema import *
-
-app = FastAPI()
-auth_router = FastAuthRouter(security)
-
-ROUTER_SCHEMA = {
-    "user": {
-        "read": UserRead,
-        "create": UserCreate,
-        "update": UserUpdate,
-        "is_active": True,
-        "is_verified": False,
-    },
-    "role": {
-        "read": RoleRead,
-        "create": RoleCreate,
-        "update": RoleUpdate,
-    },
-    "permission": {
-        "read": PermissionRead,
-        "create": PermissionCreate,
-        "update": PermissionUpdate,
-    },
-}
-
-auth_router.register_in_fastapi(app,ROUTER_SCHEMA)
-
-
-```

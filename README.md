@@ -12,7 +12,7 @@
 
 [![CI](https://github.com/AstralMortem/fastauth/actions/workflows/ci.yaml/badge.svg)](https://github.com/AstralMortem/fastauth/actions/workflows/ci.yaml)
 [![GitHub Actions Workflow Status](https://img.shields.io/github/actions/workflow/status/AstralMortem/fastauth/docs.yaml?label=Docs)](https://astralmortem.github.io/fastauth/)
-[![codecov](https://codecov.io/github/AstralMortem/fastauth/graph/badge.svg?token=SI6ND9SIPU)](https://codecov.io/github/AstralMortem/fastauth)
+[![codecov](https://codecov.io/github/AstralMortem/fastapi-fastauth/graph/badge.svg?token=SI6ND9SIPU)](https://codecov.io/github/AstralMortem/fastapi-fastauth)
 [![PyPI - Version](https://img.shields.io/pypi/v/fastapi-fastauth)](https://pypi.org/project/fastapi-fastauth/)
 [![PyPI - Downloads](https://img.shields.io/pypi/dm/fastapi-fastauth)](https://pypi.org/project/fastapi-fastauth/)
 

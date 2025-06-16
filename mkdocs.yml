@@ -1,10 +1,10 @@
 site_name: FastAuth
 site_description: Ready-to-use customizable solution for FastAPI with Authentication, Authorization(RBAC) and OAuth2 support
 site_author: chaliukvladyslav@gmail.com (Vladyslav Chaliuk)
-copyright: "Copyright (c) 2024 to present Vladyslav Chaliuk and individual contributors"
+copyright: "Copyright (c) 2025 to present Vladyslav Chaliuk and individual contributors"
 
-repo_url: https://github.com/AstralMortem/fastauth
-repo_name: AstralMortem/fastauth
+repo_url: https://github.com/AstralMortem/fastapi-fastauth
+repo_name: AstralMortem/fastapi-fastauth
 
 markdown_extensions:
   - attr_list
@@ -100,39 +100,5 @@ nav:
   - FastAuth:
       - index.md
       - Installation: installation.md
-      - Features: features.md
-      - Routers: routers.md
-      - OAuth2: oauth.md
-  - Configuration:
-      - Models: configuration/models.md
-      - Schema: configuration/schema.md
-      - Repositories: configuration/repositories.md
-      - TokenStrategy: configuration/token_strategy.md
-      - AuthManager: configuration/auth_manager.md
-      - FastAuth: configuration/fastauth.md
-      - Advanced:
-        - Transport: configuration/transport.md
-
-  - Contrib:
-      - SQLAlchemy:
-          - Models: contrib/sqlalchemy/models.md
-          - Repositories: contrib/sqlalchemy/repositories.md
-
-  - API Reference:
-      - api/index.md
-      - Contrib:
-          - SQLAlchemy:
-              - Models: api/contrib/sqlalchemy/models.md
-              - Repositories: api/contrib/sqlalchemy/repositories.md
-      - Models: api/models.md
-      - Repositories: api/repositories.md
-      - Config: api/config.md
-      - Manager: api/manager.md
-      - FastAuth: api/fastauth.md
-      - Strategy: api/strategy.md
-      - Schema: api/schema.md
-      - Transport:
-          - api/transport/index.md
-          - Classes: api/transport/transport.md
-      - Types: api/types.md
-      - Utils: api/utils.md
+      - Configuration: configuration.md
+      - How To Use: how_to_use.md

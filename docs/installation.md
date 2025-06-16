@@ -10,7 +10,7 @@ When you install fastauth simply, you will have only authentication dependencies
 for RBAC and User management support. FastAuth support some popular ORM implementations, if you don't see suitable ORM, you can
 implement your own support, see:
 
-[Extra](/)
+
 
 ### ORM Support
 To enable ORM support**(Recommended)**, install the following extra dependency:

@@ -21,8 +21,8 @@ Here’s a ready-to-use, customizable solution for FastAPI with Authentication, 
 This solution provides token based authentication(JWTHelper, Redis, DB), role-based access control, and OAuth2 integration.
 Highly inspired by [FastAPI Users](https://github.com/fastapi-users/fastapi-users) and [AuthX](https://github.com/yezz123/authx/tree/main):
 
-* **Documentation**: <https://astralmortem.github.io/fastauth/>
-* **Source Code**: <https://github.com/AstralMortem/fastauth>
+* **Documentation**: <https://astralmortem.github.io/fastapi-fastauth/>
+* **Source Code**: <https://github.com/AstralMortem/fastapi-fastauth>
 ---
 
 ## Features
