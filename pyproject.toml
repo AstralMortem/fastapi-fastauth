@@ -42,8 +42,8 @@ dependencies = [
 packages = [{include = "fastauth", from = "src"}]
 
 [project.urls]
-Documentation = "https://astralmortem.github.io/fastauth/"
-Source = "https://github.com/AstralMortem/fastauth"
+Documentation = "https://astralmortem.github.io/fastapi-fastauth/"
+Source = "https://github.com/AstralMortem/fastapi-fastauth"
 
 [project.optional-dependencies]
 sqlalchemy = ["sqlalchemy>=2.0.41"]
