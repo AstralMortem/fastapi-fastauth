@@ -1,6 +1,6 @@
 [project]
 name = "fastapi-fastauth"
-version = "1.1.0"
+version = "1.1.1"
 description = "Ready-to-use customizable solution for FastAPI with Authentication, Access Controle and OAuth2 support"
 authors = [
     {name = "Vladyslav Chaliuk",email = "chaliukvladyslav@gmail.com"}
